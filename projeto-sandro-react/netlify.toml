@@ -1,6 +1,6 @@
 # exemplo deu um netlify.toml
 [build]
-  command = "npm start"
+  command = "vite build"
   functions = "netlify/functions"
   publish = "dist"
 
